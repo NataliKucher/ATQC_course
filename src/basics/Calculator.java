@@ -11,8 +11,8 @@ public class Calculator {
             return scanner.nextInt();
         } else {
             System.out.println("You made a mistake entering an integer. Try again.");
-            scanner.next(); //рекурсия
-            return getInt();
+            scanner.next();
+            return getInt(); //рекурсия
         }
     }
 
@@ -22,8 +22,8 @@ public class Calculator {
             return scanner.next().charAt(0);
         } else {
             System.out.println("You made a mistake entering the operation. Try again.");
-            scanner.next(); //рекурсия
-            return getOperation();
+            scanner.next();
+            return getOperation(); //рекурсия
         }
     }
 

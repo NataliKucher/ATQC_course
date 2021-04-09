@@ -73,8 +73,8 @@ public class Homework1 {
             }
         } else {
             System.out.println("You made a mistake entering an integer. Try again.");
-            scanner.next(); //рекурсия
-            task4();
+            scanner.next();
+            task4(); //рекурсия
         }
     }
 
