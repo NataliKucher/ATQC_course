@@ -22,7 +22,8 @@ public class Homework1 {
         Скопируйте значение из переменной name в admin.
         Выведите на экран значение admin, используя метод System.out.println(k); (должно вывести John).
         */
-        String admin, name;
+        String admin;
+        String name;
         name = "John";
         admin = name;
         System.out.println("String admin = " + admin + "\n");
